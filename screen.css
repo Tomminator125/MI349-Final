@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0e3d; /* Dark Blue Background */
+    color: #fff; /* Text color */
+  }
+  
+  header {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .navlink {
+    color: #fff; /* Text color for navigation links */
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .navlink:hover {
+    text-decoration: underline;
+  }
+  
+  .portfolio-section {
+    padding: 20px;
+  }
+  
+  .portfolio-section h2 {
+    color: #ffa500; /* Orange color for section headings */
+  }
+  
+  .gameCard {
+    margin-bottom: 30px;
+  }
+  
+  .gameTitle {
+    color: #ffa500; /* Orange color for game titles */
+  }
+  
+  .gameImage {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gameImage:hover {
+    transform: scale(1.1);
+  }
+  
+  .gameDescription {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
